@@ -4,3 +4,15 @@ export function findById(id, quests) {
             return quest;
         }
     }}
+export function makeUser(formData){
+   
+    const user = {
+        name: formData.get('name'),
+        character: formData.get('avatar'),
+        hp: 100,
+        gold: 50,
+        completed: {},
+    };
+    
+    return user;
+} 
