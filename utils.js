@@ -16,4 +16,3 @@ export function makeUser(formData){
     
     return user;
 } 
-
