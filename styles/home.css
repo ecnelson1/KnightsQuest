@@ -2,15 +2,16 @@ body {
     height: 100%;
     width: 100%;
     display: block;
-    background-image: url("../assets/background.jpg");
+    background-image: url("../assets/main.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 h1 {
     font-size: 80px;
+    padding-top: 15%;
     padding-bottom: 30px;
     text-decoration: underline;
-    color: crimson;
+    color: rgba(201, 13, 13, 0.995);
 }
 .avatars {
     color: chartreuse;
