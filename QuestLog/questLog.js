@@ -2,7 +2,7 @@ import quests from '../Data/questData.js';
 const questLog = document.querySelector('ul');
 const scroll = document.getElementById('scroll');
 scroll.textContent = 'Quest Log:';
-const user = JSON.parse(localStorage.getItem('USER'));;
+const user = JSON.parse(localStorage.getItem('USER'));
 let allQuestsDone = true;
 
 for (let quest of quests) {

@@ -5,6 +5,7 @@ body {
     background-image: url("../assets/questlog.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: black;
 }
 .questLog {
 font-size: 50px;

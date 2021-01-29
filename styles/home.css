@@ -5,6 +5,7 @@ body {
     background-image: url("../assets/main.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 }
 h1 {
     font-size: 80px;
