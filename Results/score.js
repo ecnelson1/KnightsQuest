@@ -2,7 +2,7 @@ export function wealth(gold) {
     if (gold <= 0) {
         return 'poor';   
     }
-    else if (gold > 0 < 50 ) {
+    else if (gold > 0 ||gold < 50) {
         return 'modest';   
     }
     return 'rich';

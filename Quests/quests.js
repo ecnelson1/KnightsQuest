@@ -45,8 +45,6 @@ userOptions.addEventListener('submit', (action) => {
 });
 
 function userEffect(decision, quest){
-    console.log(user);
-    
     user.hp = user.hp + decision.hp;
     user.gold = user.gold + decision.gold;
     user.completed[quest.id] = true;

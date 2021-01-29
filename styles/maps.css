@@ -17,3 +17,6 @@ h1{
    color: crimson;
    text-decoration: underline;
 }
+.completed {
+    text-decoration: line-through;
+}
