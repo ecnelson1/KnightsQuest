@@ -10,5 +10,5 @@ form.addEventListener('submit', (e) => {
     const stringyUser = JSON.stringify(user);
     localStorage.setItem('USER', stringyUser);
 
-    window.location = '../QuestLog';
+    window.location = '../questlog';
 });
