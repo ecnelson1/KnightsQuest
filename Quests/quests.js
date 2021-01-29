@@ -39,12 +39,13 @@ userOptions.addEventListener('submit', (action) => {
     const decision = findById(choicesID, choices);
     userEffect(decision, quest); 
     const userHP = user.hp;
-
     userOptions.textContent = decision.result;
+    user.completed[questId] = true;
     directUser(userHP);
 });
 
 function userEffect(decision, quest){
+    console.log(user);
     
     user.hp = user.hp + decision.hp;
     user.gold = user.gold + decision.gold;
