@@ -1,6 +1,6 @@
 const user = JSON.parse(localStorage.getItem('USER'));
 import { wealth, health } from './score.js';
-import { livingWealth, deadWealth, healthRecord } from '../Data/messages.js'; 
+import { livingWealth, deadWealth, healthRecord } from '../data/messages.js'; 
 const questOutcome = document.getElementById('quest-result');
 const healthResult = health(user.hp);
 const wealthResult = wealth(user.gold);
