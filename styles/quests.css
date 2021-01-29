@@ -2,7 +2,29 @@ body {
     height: 100%;
     width: 100%;
     display: block;
-    background-image: url("../assets/background.jpg");
+    background-color: black;
     background-repeat: no-repeat;
     background-size: 100%;
+    color: chartreuse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+    text-transform: capitalize;
+}
+
+img {
+    height: 300px;
+    width: 900px;
+}
+button {
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;;
+}
+
+form {
+    border: crimson solid 3px;
+    padding: 20px;
 }
