@@ -1,5 +1,3 @@
-export const USER = 'USER';
-
 export function findById(id, quests) {
     for (let quest of quests) {
         if (quest.id === id){
@@ -19,10 +17,3 @@ export function makeUser(formData){
     return user;
 } 
 
-// export function setUser(user){
-//     localStorage.setItem('USER', JSON.stringify(user));
-// }
-// export function getUser(){
-//     const user = localStorage.getItem(USER);
-//     return user;
-// } 
