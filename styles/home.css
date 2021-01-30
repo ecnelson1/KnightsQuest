@@ -1,0 +1,40 @@
+body {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-image: url("../assets/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+h1 {
+    font-size: 80px;
+    padding-top: 15%;
+    padding-bottom: 30px;
+    text-decoration: underline;
+    color: rgba(201, 13, 13, 0.995);
+}
+.avatars {
+    color: chartreuse;
+    display: grid;
+    justify-content: space-between;
+    padding: 20px 20px 20px 50px;
+    margin: 15px;
+}
+
+.avatarpic {
+    height: 50px;
+    width: 50px;
+}
+form { 
+    color: chartreuse;
+    display: grid;
+    justify-content: center;
+
+    background-color: black;
+    font-size: 30px;
+    font-weight: bolder;
+}
+button {
+    background-color: crimson;
+}
