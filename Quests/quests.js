@@ -1,4 +1,4 @@
-import quests from '../data/questData.js';
+import quests from '../Data/questData.js';
 import { findById } from '../utils.js';
 
 const questTitle = document.querySelector('h1');

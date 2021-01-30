@@ -1,4 +1,4 @@
-import quests from '../data/questData.js';
+import quests from '../Data/questData.js';
 const questLog = document.querySelector('ul');
 const scroll = document.getElementById('scroll');
 scroll.textContent = 'Quest Log:';
