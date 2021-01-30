@@ -54,5 +54,5 @@ function userEffect(decision, quest){
 function directUser(userHP){
     if (userHP <= 0){
         setTimeout(function(){window.location = '../results';}, 12000);
-    } else {setTimeout(function(){window.location = '../questlog';}, 12000);}
+    } else {setTimeout(function(){window.location = '../QuestLog';}, 12000);}
 }
