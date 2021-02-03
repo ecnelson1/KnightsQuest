@@ -17,7 +17,7 @@ for (let quest of quests){
     const task = document.createElement('li');
     const invite = document.createElement('a');
     invite.textContent = quest.title;
-    invite.href = `../quests/?id=${quest.id}`;
+    invite.href = `../Quests/?id=${quest.id}`;
     if (user.completed [quest.id]){
         invite.classList.add('completed');
         invite.href = 'javascript:void(0)';
